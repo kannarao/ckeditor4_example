@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <meta charset="utf-8">
+                <title>CKEditor</title>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.8.0/ckeditor.js" integrity="sha512-lKwk82OTcXaujpLk2G2rplJ8ntniQ5fV/1qlg7EMqyF88lJsEgZaVFP9wxb/ZSCop7CfTsAxnTUg/vvZlFzyQw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        </head>
+        <body>
+                <h1>Use the full-all presets javascript</h1>
+                <form action="/pages/create" method="POST">
+                        <input name="name">
+                        <textarea name="html" id="editor"></textarea>
+                        <input type="submit" value="Submit">
+                </form>
+                <script>
+                        CKEDITOR.replace( 'editor',{
+                                fullPage: true,
+                                allowedContent: true
+                        });
+                </script>
+        </body>
+</html>

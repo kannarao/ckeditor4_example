@@ -1,0 +1,8 @@
+In this project we will rich editor by CKEditor
+
+1. we are going to implement 3 urls
+2. first url to create page
+3. second url for update page
+4. third ulr to access created page
+5. by using implemented in future we can easily create new page and update content as well
+6. here we are not using database to save html instead we are saving as directly as html file only
